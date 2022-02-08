@@ -1,0 +1,84 @@
+/* Header Section */
+.intro {
+  display: table;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: auto;
+
+  /* background-image: url("/img/blueAbstract.jpg"); */
+}
+.intro .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+.intro h1 {
+  /*font-family: "Raleway", sans-serif;
+   color: #fff; */
+   font-family: web-yekan;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  background: -webkit-linear-gradient(129deg, #09009f, #029b5b 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* margin: 0; */
+  line-height: 1.1;
+}
+.intro h1 span {
+  font-weight: 800;
+  color: #5ca9fb;
+}
+.intro p {
+  color: rgb(70, 70, 70);
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 30px auto;
+  margin-bottom: 50px;
+}
+header .intro-text {
+  padding-top: 130px;
+  padding-bottom: 200px;
+  text-align: center;
+  position: relative;
+}
+
+#header .info{
+  height: 170px;
+  padding-top: 85px;
+  padding-right: 10px;
+  position: relative;
+  direction: rtl;
+  background-color: #ffffffc6;
+
+  border-bottom: azure;
+  border-bottom-style: solid;
+  border-radius: 25px;
+}
+#header .info>*{
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  /* color: #1e201e !important; */
+}
+
+#header .info>.navbar-brand.page-scroll{
+  /* float: right;
+  font-size: 30px;
+  font-weight: bold; */
+  color: #1e201e !important;
+}
+
+#header .wellcome{
+  float: none;
+  text-align: center;
+}
